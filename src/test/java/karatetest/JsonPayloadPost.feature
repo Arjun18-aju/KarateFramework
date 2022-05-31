@@ -15,7 +15,7 @@ Feature: Create user using post api
     * def randomString = random_string(10)
     * print randomString
     
-    * def reqPayload = read('classpath:src/test/resources/payload/PostPayload.json')
+    * def reqPayload = read("../user.json")
  
     # * requestPayload.email = randomString + "@gmail.com"
     * set reqPayload.email = randomString + "@gmail.com"
